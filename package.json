@@ -1,0 +1,22 @@
+{
+  "name": "column-preview-component",
+  "version": "1.0.0",
+  "description": "A simple sideways stacked cards using flexbox",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass sass/main.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuntash/column-preview-component.git"
+  },
+  "author": "Kunga Tashi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kuntash/column-preview-component/issues"
+  },
+  "homepage": "https://github.com/Kuntash/column-preview-component#readme",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

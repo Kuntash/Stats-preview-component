@@ -1,0 +1,29 @@
+@import "utility";
+@import "card-layout";
+@import "button";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.Column {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 375px) {
+    padding-top: 8.8rem;
+  }
+}

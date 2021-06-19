@@ -1,0 +1,27 @@
+.Column .container {
+  display: flex;
+  border-radius: 1rem;
+  overflow: hidden;
+  // Style affecting all the cards
+
+  @media (max-width: 375px) {
+    flex-direction: column;
+  }
+  &--card {
+    max-width: 30.5rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 375px) {
+    }
+    &__header {
+      margin-bottom: 8rem;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 27.1rem;
+    }
+  }
+}
