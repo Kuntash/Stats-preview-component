@@ -1,3 +1,3 @@
-# Stats preview component
+# Column preview component
 
-A simple card using html, css and sass.
+A three cards stacked sideways using flexbox.
