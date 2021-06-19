@@ -1,0 +1,42 @@
+//Variables
+
+$orange: hsl(31, 77%, 52%);
+$cyan: hsl(184, 100%, 22%);
+$dark-cyan: hsl(179, 100%, 13%);
+$light-gray: hsla(0, 0%, 100%, 0.75);
+$trans-white: hsl(0, 0%, 95%);
+
+.title {
+  font-family: "Big Shoulders Display", cursive;
+  color: $trans-white;
+  font-size: 3.7rem;
+}
+
+.paragraph {
+  font-family: inherit;
+  color: $light-gray;
+  line-height: 1.7;
+}
+
+.orange {
+  background-color: $orange;
+}
+
+.cyan {
+  background-color: $cyan;
+}
+.dark-cyan {
+  background-color: $dark-cyan;
+}
+
+.btn-orange {
+  color: $orange;
+}
+
+.btn-cyan {
+  color: $cyan;
+}
+
+.btn-dark-cyan {
+  color: $dark-cyan;
+}

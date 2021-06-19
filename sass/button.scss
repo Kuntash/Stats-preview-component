@@ -1,0 +1,18 @@
+@import "utility";
+
+.button {
+  padding: 1.7rem 4.7rem;
+  font-family: inherit;
+  background-color: $trans-white;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  border: 0.3rem solid transparent;
+
+  &:hover {
+    background-color: transparent;
+    color: $trans-white;
+    border: 0.3rem solid $trans-white;
+  }
+}
