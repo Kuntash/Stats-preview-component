@@ -1,3 +1,4 @@
+
 .title {
   font-family: "Big Shoulders Display", cursive;
   color: #f2f2f2;
@@ -108,3 +109,16 @@ body {
   @media (max-width: 375px) {
     .Column {
       padding-top: 8.8rem; } }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    
+}
